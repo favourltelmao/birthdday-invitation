@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background: url('birthday-background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.invitation-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7);
+  margin: auto;
+  max-width: 500px;
+}
+
+h1 {
+  font-family: 'Garamond', serif;
+  color: #d4af37;
+}
+
+h2 {
+  color: #d4af37;
+  font-family: 'Garamond', serif;
+}
+
+p {
+  font-family: 'Times New Roman', serif;
+  margin: 15px 0;
+}
+
+.rsvp-form {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: #222;
+  color: white;
+  width: 90%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d4af37;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #b68929;
+}
+
+.hidden {
+  display: none;
+}
+.intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.intro-screen h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #d4af37;
+}
+
+.intro-screen h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.intro-screen p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.intro-screen button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #d4af37;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.intro-screen button:hover {
+  background-color: #b68929;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-invitation {
+  padding: 30px;
+}
